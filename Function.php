@@ -12,9 +12,9 @@
             
             if(pg_affected_rows($result) == 1){
                 if( $nameProduct != null && $priceProduct != null && $quantityProduct != null && $descriptionProduct != null){
-                    $query = "UPDATE product SET product = '$nameProduct',price = $priceProduct,
-                    quantity = $quantityProduct, description = '$descriptionProduct'
-                    WHERE  product = '$nameProduct';";
+                    $query = "UPDATE product1 SET nameproduct = '$nameProduct',priceproduct = $priceProduct,
+                    quantityproduct = $quantityProduct, description = '$descriptionProduct'
+                    WHERE  nameproduct = '$nameProduct';";
                     $result = pg_query($dbconn, $query);
                 }
                     else echo "<script> alert('Please enter full field')</script>";
@@ -23,7 +23,7 @@
         }
         if (isset($_POST['delete'])){
             $nameproduct = $_POST["product"];
-            $query = "DELETE FROM product WHERE  product = '$nameproduct'";
+            $query = "DELETE FROM product1 WHERE  nameproduct = '$nameproduct'";
             $result = pg_query($dbconn, $query);
             if(pg_affected_rows($result) == 1){
                 echo "<script> alert('Delete product success.')</script>";  
