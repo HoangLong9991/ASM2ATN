@@ -10,25 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@200&display=swap" rel="stylesheet"/>
 </head>
 <body>
-<!-- START NAV -->
-
-<nav id="navbar" class="nav">
-  <div class="Logo">
-    <img src="" alt="">
-  </div>
   <div>
-  <ul class="nav-list">
-        <li>
-          <a href="login.php">LogIn</a>
-        </li>
-        <li>
-          <a href="register.php">SignUp</a>
-        </li>
-  </ul>
+      <div> <a href="login.php">LogIn</a></div>
+      <div> <a href="register.php">SignUp</a></div>
+        <div> <h1>ATN Company</h1></div>
   </div>
-</nav>
-<!-- END NAV -->
-
-<div id="header-title" class="header-title">
-  <h1>ATN Company</h1><br>
-</div>
+    </body>
+</html>
