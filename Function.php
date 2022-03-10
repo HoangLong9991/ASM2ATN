@@ -35,17 +35,17 @@
             }
         }
         if (isset($_POST['insert'])){
-            $nameProduct = $_POST["product"];
-            $priceProduct = $_POST["price"];
-            $quantityProduct = $_POST["quantity"];
+            $nameProduct = $_POST["nameproduct"];
+            $priceProduct = $_POST["priceproduct"];
+            $quantityProduct = $_POST["quantityproduct"];
             $descriptionProduct = $_POST["description"];
-            $query = "SELECT * FROM product WHERE product = '$nameProduct' AND shopname = '$role';";
+            $query = "SELECT * FROM product1 WHERE nameproduct = '$nameProduct' AND shopname = '$role';";
             $result = pg_query($dbconn, $query);
                 if(pg_affected_rows($result) < 1){
                     if($nameProduct != null && $priceProduct != null && $quantityProduct != null 
                     && $descriptionProduct != null){
                 
-                    $query = "INSERT INTO product VAlUES ('$role', '$nameProduct', $priceProduct, $quantityProduct, '$descriptionProduct')";
+                    $query = "INSERT INTO product1 VAlUES ('$role', '$nameProduct', $priceProduct, $quantityProduct, '$descriptionProduct')";
                     $result = pg_query($dbconn, $query);
                 
                         if(pg_affected_rows($result) < 1){   
