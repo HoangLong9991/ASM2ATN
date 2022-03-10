@@ -18,38 +18,12 @@
   </div>
   <div>
   <ul class="nav-list">
-    <li> 
-      <div class="dropdown">
-        <button class="dropbtn"></button>
-      </div>
-    </li>
-    <li>
-      <a href="emptycart.php">Menu</a>
-    </li>
-    <?php
-    if(!isset($_SESSION['username']))
-    {
-      ?> 
         <li>
           <a href="login.php">LogIn</a>
         </li>
         <li>
           <a href="register.php">SignUp</a>
         </li>
-      <?php
-    }
-    else
-    {
-      ?>
-      <li>
-          <a href="profile.php">Profile</a>
-        </li>
-        <li>
-          <a href="index.php">Logout</a>
-        </li>
-      <?php
-    }
-    ?>
   </ul>
   </div>
 </nav>
