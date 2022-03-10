@@ -92,5 +92,24 @@ else
         <div><a href="logout.php"> Logout</a><br /></div>
     </div>
 </body>
-
+<article class="footer-containers">
+			<div class="grid">
+				<div class="grid-row">
+					<div class="grid-column-footer">
+						<h3 class="footer-header">Contact</h3>
+						<ul class="footer-list">
+							<li class="footer-item"><a href="https://www.facebook.com/Sneaker-Store-106449377525986">Facebook</a></li>
+							<li class="footer-item"><a href="">Instagram</a></li>
+							<li class="footer-item"><a href="">Zalo</a></li>
+						</ul>
+					</div>
+					<div class="grid-column-footer">
+						<h3 class="infor">Introduce</h3>
+                        <p class="address">Address 1: 38 Phước Mỹ 1, Sơn Trà, Đà Nẵng</p>
+						<p class="address">Address 2: 119 Văn Tiến Dũng, Sơn Trà, Đà Nẵng</p>
+                        <p class="hotline">Hotline: 0985959912</p>
+					</div>
+				</div>
+			</div>
+		</article>
 </html>
