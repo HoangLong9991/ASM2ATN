@@ -23,7 +23,7 @@ if($role=="Admin")
             <meta charset="UTF-8">
             <meta http-equiv="refresh" content="<?php echo $_SESSION["refresh"];?> ;URL="https://asmcloudcomputing2022.herokuapp.com/Home_Page.php"">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="login.css">
+<!-- 	<link rel="stylesheet" href="login.css"> -->
             <title>Document</title>
         </head>
         <div id="main">
