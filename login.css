@@ -5,7 +5,11 @@ body{
     background-image: url("https://tophinhanhdep.com/wp-content/uploads/2021/10/Toy-Story-Wallpapers.jpg");
     background-size: cover;
 }
-
+.shopname{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
 .login{
     position: absolute;
     top: 50%;
