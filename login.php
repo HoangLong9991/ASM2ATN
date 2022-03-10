@@ -45,6 +45,7 @@ pg_close($dbconn);
                 <input type="password" name="password" required>
             </div>
             <input class="btn_login" type="submit" name="login" value="Login">
+            <input class="btn_login" type="submit" name="signup" value="Sign Up">
         </form>
     </div>
 </body>
