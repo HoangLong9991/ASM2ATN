@@ -3,11 +3,11 @@
     if ($_SERVER["REQUEST_METHOD"]=="POST")
     {
         if (isset($_POST['update'])){
-            $nameProduct = $_POST["product"];
-            $priceProduct = $_POST["price"];
-            $quantityProduct = $_POST["quantity"];
+            $nameProduct = $_POST["nameproduct"];
+            $priceProduct = $_POST["priceproduct"];
+            $quantityProduct = $_POST["quantityproduct"];
             $descriptionProduct = $_POST["description"];
-            $query = "SELECT * FROM product WHERE product = '$nameProduct' AND shopname = '$role';";
+            $query = "SELECT * FROM product1 WHERE nameproduct = '$nameProduct' AND shopname = '$role';";
             $result = pg_query($dbconn, $query);
             
             if(pg_affected_rows($result) == 1){
