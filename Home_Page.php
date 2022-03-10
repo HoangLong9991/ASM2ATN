@@ -62,18 +62,18 @@ if($role=="Admin")
     $selected_shop = $_SESSION["selected_shop"];
     if($selected_shop=="All_Shop")
     {
-        $query = "SELECT * FROM product";
+        $query = "SELECT * FROM product1";
     }
     else
     {
-        $query = "SELECT * FROM product WHERE  shopname = '$selected_shop'";
+        $query = "SELECT * FROM product1 WHERE  shopname = '$selected_shop'";
     }
     $result = pg_query($dbconn, $query);
     display_table_admin($result);
 }
 else
 {
-    $query = "SELECT * FROM product WHERE  shopname= '$role'";
+    $query = "SELECT * FROM product1 WHERE  shopname= '$role'";
     $result = pg_query($dbconn, $query);
     display_table_shop($result);
     echo"<h2> Insert Product </h2>";
