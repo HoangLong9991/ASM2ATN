@@ -23,9 +23,6 @@
         <button class="dropbtn"></button>
       </div>
     </li>
-    <li>
-      <a href="emptycart.php">Menu</a>
-    </li>
     <?php
     if(!isset($_SESSION['username']))
     {
