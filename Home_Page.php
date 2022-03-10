@@ -81,6 +81,7 @@ else
     $num_field = pg_num_fields($result);
     for ($i=1;$i<$num_field;$i++){
         $field_name = pg_field_name($result,$i);    
+	    echo "<p> $field_name </p>";
             echo "<input class='input-box' type='text' placeholder=$field_name name=$field_name ></br>";
     }
     echo "<input type='submit' value='insert' name='insert'></br>";
