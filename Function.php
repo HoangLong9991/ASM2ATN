@@ -22,7 +22,7 @@
             else echo "<script> alert('Product does not exist.')</script>";  
         }
         if (isset($_POST['delete'])){
-            $nameproduct = $_POST["product"];
+            $nameproduct = $_POST["nameproduct"];
             $query = "DELETE FROM product1 WHERE  nameproduct = '$nameproduct'";
             $result = pg_query($dbconn, $query);
             if(pg_affected_rows($result) == 1){
