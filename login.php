@@ -33,7 +33,7 @@ pg_close($dbconn);
 </head>
 
 <body>
-  <div><h1> ATN STORE </h1></div>
+  <div class = "shopname"><h1> ATN STORE </h1></div>
     <div class="login">
         <h1>Login</h1>
         <form action="login.php" method="post">
