@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@200&display=swap" rel="stylesheet"/>
 </head>
 <body>
-  <div>
+  <div class = "loginandregister">
       <div> <a href="login.php">LogIn</a></div>
       <div> <a href="register.php">SignUp</a></div>
         <div> <h1>ATN Company</h1></div>
