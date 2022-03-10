@@ -2,7 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif, Times, serif;
-    background: rgb(124, 115, 115);  
+    background-image: url("https://tophinhanhdep.com/wp-content/uploads/2021/10/Toy-Story-Wallpapers.jpg");
+    background-size: cover;
 }
 
 .login{
