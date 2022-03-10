@@ -4,7 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif, Times, serif;
     background: rgb(124, 115, 115);
 }
+.Website{
+    background-image: url("C:\Abyss Web Server\htdocs\ATN\decv5yt-f9e79cc8-0dad-44cd-8786-678dc53a54b0.jpg"");
 
+}
 .login{
     position: absolute;
     top: 50%;
