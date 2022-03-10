@@ -87,14 +87,8 @@ else
     }
     echo "<input type='submit' value='insert' name='insert'></br>";
     echo "</form>";
-}
-?>
-    </div>
-    <div class="footer">
-        <div><a href="logout.php"> Logout</a><br /></div>
-    </div>
-</body>
-<article class="footer-containers">
+	?>
+	<article class="footer-containers">
 			<div class="grid">
 				<div class="grid-row">
 					<div class="grid-column-footer">
@@ -114,4 +108,13 @@ else
 				</div>
 			</div>
 		</article>
+<?php
+}
+?>
+    </div>
+    <div class="footer">
+        <div><a href="logout.php"> Logout</a><br /></div>
+    </div>
+</body>
+
 </html>
