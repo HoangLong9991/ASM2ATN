@@ -51,16 +51,15 @@ form label{
 }
 
 
-.btn_login{
-    width: 80%;
-    height: 30px;
-    border: 1px solid;
-    background: #585857;
-    border-radius: 25px;
-    font-size: 18px;
-    color: #e9f4f5;
-    font-weight: 700;
-    cursor: pointer;
-    outline: none;
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+button.margin-right {
+  margin-right: 20px;
 }
 
