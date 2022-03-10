@@ -45,8 +45,8 @@ if($role=="Admin")
                     <div id="sub">
                         <div>
                             <select name="shop">
-                                <option value="Shop A">Shop A</option>
-                                <option value="Shop B">Shop B</option>
+                                <option value="ShopA">Shop A</option>
+                                <option value="ShopB">Shop B</option>
                                 <option value="All_Shop" selected>All Shop</option>
                             </select>
                         </div>
