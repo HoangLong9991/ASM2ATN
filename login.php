@@ -47,7 +47,7 @@ pg_close($dbconn);
             </div>
 <!--           <div class = "flex-parent jc-center"> -->
             <input class="green margin-right" type="submit" name="login" value="Login">
-            <input class="magenta" type="submit" name="signup" value="Sign Up">
+            <input class="magenta" type="submit" value="Sign Up">
 <!--             </div> -->
         </form>
     </div>
