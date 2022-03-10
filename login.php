@@ -44,12 +44,15 @@ pg_close($dbconn);
             <div class="field_text">
                 <input type="password" name="password" required>
             </div>
-          <div class = "btnloginandsignup">
-            <input class="btn_login" type="submit" name="login" value="Login">
-            <input class="btn_login" type="submit" name="signup" value="Sign Up">
+          <div class = "flex-parent jc-center">
+<!--             <input class="btn_login" type="submit" name="login" value="Login">
+            <input class="btn_login" type="submit" name="signup" value="Sign Up"> -->
+              <button type="submit" class="green margin-right" name="login" >Login</button>
+              <button type="submit" class="magenta" name="signup">Sign Up</button>
             </div>
         </form>
     </div>
 </body>
+
 
 </html>
