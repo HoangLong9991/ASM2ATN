@@ -55,9 +55,6 @@ if($role=="Admin")
                     </div>
                 </form>
             </div>
-            <div class="select-div">
-                <a class="link" href="logout.php"> Logout</a><br />
-            </div>
         </div>
         <?php
     $selected_shop = $_SESSION["selected_shop"];
