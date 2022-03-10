@@ -32,7 +32,7 @@ pg_close($dbconn);
     <link rel="stylesheet" href="login.css">
 </head>
 
-<body class = "Website">
+<body>
     <div class="login">
         <h1>Login</h1>
         <form action="login.php" method="post">
