@@ -10,3 +10,7 @@ p{
 }
 .select-div{
 display: flex;}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
