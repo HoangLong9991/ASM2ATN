@@ -95,7 +95,7 @@ function display_table_shop($query_object)
         for ($i=0;$i < $num_field; $i++)
         {   
             $field_name = pg_field_name($query_object, $i);
-            echo "<th>$field_name</th>";
+            echo "<th class = 'field'>$field_name</th>";
         }          
             echo "</tr>";
         $num_row=pg_num_rows($query_object);
