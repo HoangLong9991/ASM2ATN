@@ -7,11 +7,11 @@ if ($_SERVER['REQUEST_METHOD'] == "POST")
 {
   $uname = $_POST['username'];
   $passwd = $_POST['password'];
-  $query = "SELECT * FROM account WHERE username = '$uname' AND password = '$passwd'";
+  $query = "SELECT * FROM accounts WHERE username = '$uname' AND password = '$passwd'";
   $result = pg_query($dbconn ,$query);
   if (pg_num_rows($result) == 1){
     $user_info = pg_fetch_array($result);
-    $role = $user_info["nameshop"];
+    $role = $user_info["shopname"];
     $_SESSION["role"] = $role;
     $_SESSION["refresh"] = 5;
     $_SESSION["selected_shop"] = "All_Shop";
